@@ -1,0 +1,61 @@
+<!DOCTYPE html> <!--Document type declaration-->
+<html lang="en"> <!--lang attribute inside the <html> tag represents the language of the Web page.-->
+    <head>
+        <title>Learning HTML</title>
+    </head>
+    <body> <!--The visible part of the HTML document is between <body> and </body>.-->
+
+        <!--There are 6 heading from max to min size in html-->
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+
+        <!--Paragraphs are written by <p> tag-->
+        <p>This is the paragraph...</p>
+
+        <!--The title attribute defines some extra information about an element.
+            The value of the title attribute will be displayed as a tooltip when you mouse over the element:-->
+        <p title="I'm a tooltip">This is a paragraph.</p>
+            
+        <!--A problem with <p> tag is that although below p contains text wich both spaces and linebreaks but it will be displayed as a whole -->
+        <p>
+            My Bonnie lies over the ocean.
+            
+            My Bonnie lies over the sea.
+            
+            My Bonnie lies over the ocean.
+            
+            Oh, bring back my Bonnie to me.
+        </p>
+
+        <!--The text inside a <pre> element is displayed in a fixed-width font (usually Courier), and it preserves both spaces and line breaks-->
+
+        <pre>
+            My Bonnie lies over the ocean.
+            
+            My Bonnie lies over the sea.
+            
+            My Bonnie lies over the ocean.
+            
+            Oh, bring back my Bonnie to me.
+        </pre>
+        <!--Some tags in html are empty tags as they don't have closing tags-->
+        <hr> <!--The <hr> element is used to separate content (or define a change) in an HTML page-->
+        <br> <!--This tag breaks the line-->
+
+        <!--HTML links are defined with anchor <a> tag-->
+            <a href="https://www.google.com/">Go to Google</a> <!-- href contain link of desired page and Go to Google is the text which will represent the link -->
+            
+        <br>
+        <br>
+        <!--HTML images are defined with the <img> tag.
+            The source file (src) contain the name of image present in your project directory, alternative text (alt) it will show the respective text if image could'nt be displayed, width (respresents width of image), and height (respresents width of image) are provided as attributes-->
+        <img src="webdevelopment.jpeg" alt="W3Schools.com" width="400" height="200"> <!--Relative URL : src takes the name of image which is present in your current project directory.-->
+        <img src="https://www.interviewbit.com/blog/wp-content/uploads/2022/01/Web-Development-Projects-1-800x391.png" alt="W3Schools.com" width="400" height="200"> <!--Absolute URL : src can also take the link of any online image which is not present in your directory and loads it on runtime. -->
+        
+    
+    </body>
+</html>
